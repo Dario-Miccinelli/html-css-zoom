@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container-webapp {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+ 
+.pic {
+    width: calc(100%/7);
+    margin: auto;
+}
+
+.pic img {
+    width: 100%;
+    padding: 7px;
+}
+
+.pic .label {
+    font-size: 1.2rem;
+}
+
+.pic .label {
+    position: absolute;
+    margin-top: -2.5rem;
+    margin-left: 1rem;
+    background-color: black;
+}
+
+.fa-microphone-slash {
+    color: red;
+}

@@ -5,6 +5,17 @@
 
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    margin-top: 1rem;
+    z-index: 1;
+
+}
+
+
+
 header a {
     text-decoration: none;
     color: white;
@@ -29,17 +40,16 @@ main {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    margin: 1.5rem;
+    margin: 3.5rem;
 }
  
 .pic {
     width: calc(100%/7);
-    margin: auto;
 }
 
 .pic img {
     width: 100%;
-    padding: 7px;
+    padding: 1px 5px;
 }
 
 .pic .label {
